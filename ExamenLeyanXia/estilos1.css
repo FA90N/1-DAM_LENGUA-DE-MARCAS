@@ -1,0 +1,68 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-image: url(foto/calabaza.jpg);
+    background-size: contain;
+    width: 100%;
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 50px;
+
+}
+section article{
+    padding-top: 20px;
+    width: 700px;
+    height: 600px;
+    border-style: solid;
+    padding-right: 400px;
+    text-align: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+section article p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section article ul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section article mark{
+    background-color: rgb(233, 42, 42);
+}
+section article img{
+    display: none;
+}
+section article:hover img{
+    display: block;
+    text-align: center;
+    padding-left: 200px;
+}
+section article:hover li{
+    display:none
+}
+section:hover article{
+    text-align: center;
+    padding: 30px;
+}
+
+em{
+    color: rgb(253, 17, 17);
+}
+footer{
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    float: none;
+    border-style: solid;
+}
+aside{
+    width: 200px;
+    height: 600px;
+    border-style: solid;
+   float: right;
+}
+
+

@@ -1,0 +1,48 @@
+body{
+    background-image: url(foto/fondo.png);
+    border-style: solid;
+    border-color: blueviolet;
+}
+
+header{
+   
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+nav{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+section article img{
+    width: 350px;
+    margin-right: 10px;  
+    padding: 20px;
+}
+
+section aside{
+    width: 320px;
+    float: right;
+    margin-right: 20px;
+}
+a:hover{
+    font-size: 25px;
+    color: brown;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(65, 53, 117);
+    text-align: center;
+}

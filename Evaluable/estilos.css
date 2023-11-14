@@ -1,0 +1,88 @@
+body{
+    background-image: url(foto/fondo.png);
+    border-style: solid;
+    border-color: blueviolet;
+
+}
+
+header{
+   
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+nav{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    height: 65px;
+    
+}
+nav h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: aliceblue;
+    padding-top: 16px;
+  
+}
+section{
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom: solid;
+    border-color: blueviolet;
+   
+}
+section article{
+    
+    padding: 20px;
+}
+section article img{
+    width: 350px;
+    float: left;
+    margin-right: 30px;
+    padding: 10px;
+}
+section article p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    
+}
+
+blockquote{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    font-weight: bolder;
+    color: blue;
+    border-left-style:solid;
+    padding-left: 10px;
+    width: 200px;
+    float: right;
+}
+a:hover{
+    font-size: 35px;
+    color: brown;
+    
+}
+blockquote:hover{
+    font-size: 20px;
+    color: brown;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(65, 53, 117);
+    text-align: center;
+}
